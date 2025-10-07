@@ -19,7 +19,7 @@ def google_search(query):
         return
 
     print("\nHere are some results that i was able to find:\n")
-    for item in data["items"][:5]:  # show first 5 results
+    for item in data["items"][:5]: 
         print(f"Title: {item['title']}")
         print(f"Link: {item['link']}")
         print(f"Snippet: {item['snippet']}\n")
@@ -42,3 +42,4 @@ if help == "yes":
         print("sorry that isnt a command, you prob got it wrong")
 else:
     print("alright then have a great day")
+
